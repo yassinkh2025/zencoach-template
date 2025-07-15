@@ -1,23 +1,27 @@
-# 🌿 ZenCoach – Landing Page animée Ghibli
+# 🌿 ZenCoach — Landing Page Animée (Style Ghibli / Manga)
 
-ZenCoach est une landing page immersive et animée, conçue pour les coachs bien-être, thérapeutes ou formateurs. Inspirée de l’univers Ghibli, elle mêle animations douces, visuels naturels et transitions cinématiques pour une expérience unique.
+**ZenCoach** est une landing page immersive conçue pour les coachs bien-être, formateurs, ou créateurs de contenu.  
+Elle offre une expérience visuelle unique inspirée de l’univers **Ghibli** et du **zen japonais**, avec des effets animés GSAP, un menu magique, et un design responsive.
 
-## ✨ Caractéristiques
+🔗 **Démo en ligne** : [https://zencoach2.netlify.app/](https://zencoach2.netlify.app/)
 
-- 💫 Style visuel inspiré du Japon et de Ghibli (manga, nature, zen)
-- 🎨 Transitions entre sections avec effets GSAP cinématographiques
-- 🌈 Cartes animées (effet flip, hover, etc.)
-- 🔊 Son d’ambiance interactif (activable par bouton)
-- 🌐 Responsive (mobile, tablette, desktop)
-- ⚡ Navigation par “hop” : chaque section s’affiche séparément via le menu magique
+## ✨ Fonctionnalités
 
-## 🛠️ Stack utilisée
+- ⚡️ Animations GSAP (effets de révélation cinématiques)
+- 🎨 Menu interactif dynamique (avec couleurs par section)
+- 📱 Design 100% responsive (mobile, tablette, desktop)
+- 🧘‍♂️ Sections : Hero, À propos, Services, Contact
+- 🔊 Sons d’ambiance par section (nature, relaxation)
+- 🌀 Effets de brume, feuilles volantes, background animé
+- 🌙 Thème visuel inspiré de l’univers manga/zen/Ghibli
 
-- React + TypeScript
-- Tailwind CSS
-- GSAP (animations avancées)
-- Framer Motion (animations UI)
-- Vite (build rapide)
+## 🧱 Technologies utilisées
 
-## 📁 Structure
+- **React + TypeScript + Vite**
+- **Tailwind CSS**
+- **GSAP** (animations avancées)
+- **Framer Motion** (animations de menu)
+- Déploiement avec **Netlify**
+
+## 📁 Structure du projet
 
