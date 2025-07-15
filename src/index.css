@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+/* 🌿 Animation des ailes */
+@keyframes flap-left {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(25deg); }
+}
+@keyframes flap-right {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(-25deg); }
+}
+.animate-flap-left {
+  animation: flap-left 0.3s infinite ease-in-out;
+}
+.animate-flap-right {
+  animation: flap-right 0.3s infinite ease-in-out;
+}
+
+/* 🌬️ Battement / rebond */
+@keyframes bouncewing {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(6deg); }
+}
+.animate-bouncewing {
+  animation: bouncewing 1.2s infinite ease-in-out;
+}
+
+/* ✨ Glow vert par défaut */
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 0px rgba(144, 238, 144, 0.7); }
+  50% { box-shadow: 0 0 12px rgba(144, 238, 144, 1); }
+}
+.animate-glow {
+  animation: glow 2s infinite ease-in-out;
+}
+
+/* ✨ Glow bleu pour "À propos" */
+@keyframes glow-blue {
+  0%, 100% { box-shadow: 0 0 0px rgba(147, 197, 253, 0.7); }
+  50% { box-shadow: 0 0 12px rgba(147, 197, 253, 1); }
+}
+.animate-glow-blue {
+  animation: glow-blue 2s infinite ease-in-out;
+}
+
+/* ✨ Glow rose pour "Services" */
+@keyframes glow-pink {
+  0%, 100% { box-shadow: 0 0 0px rgba(244, 114, 182, 0.7); }
+  50% { box-shadow: 0 0 12px rgba(244, 114, 182, 1); }
+}
+.animate-glow-pink {
+  animation: glow-pink 2s infinite ease-in-out;
+}
+
+/* 🌟 Ping rapide (halo magique) */
+@keyframes ping-fast {
+  0% { transform: scale(1); opacity: 0.6; }
+  100% { transform: scale(1.6); opacity: 0; }
+}
+.animate-ping-fast {
+  animation: ping-fast 1.6s infinite;
+}
+
+/* 🌟 Texte lumineux au hover */
+.glow-text {
+  position: relative;
+}
+.glow-text::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(72, 211, 113, 0.4);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.glow-text:hover::after {
+  opacity: 1;
+}
+
+/* 🚫 Pas de scroll horizontal */
+html, body {
+  overflow-x: hidden;
+}
+
+
+
+
+
+@keyframes footerGlow {
+  0%, 100% {
+    text-shadow: 0 0 4px #fff9d1, 0 0 10px #ffd700;
+  }
+  50% {
+    text-shadow: 0 0 10px #fff2b2, 0 0 20px #ffda55;
+  }
+}
+
+.animate-footer-glow {
+  animation: footerGlow 4s infinite ease-in-out;
+}
