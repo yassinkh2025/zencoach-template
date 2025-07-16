@@ -52,8 +52,9 @@ export default function About() {
 
   return (
     <section
+      id="about"
       ref={sectionRef}
-      className="relative w-full h-screen flex flex-col items-center justify-center text-center bg-cover bg-center px-4"
+      className="scroll-mt-[120px] relative w-full h-screen flex flex-col items-center justify-center text-center bg-cover bg-center px-4"
       style={{
         backgroundImage:
           "url('/meditation-sous-la-foret-de-bambou-au-clair-de-lune.jpg')",

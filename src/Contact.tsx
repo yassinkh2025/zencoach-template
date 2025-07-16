@@ -1,3 +1,4 @@
+// src/components/Contact.tsx
 import { useEffect, useRef } from "react"
 import { gsap } from "gsap"
 import AmbientSoundWhite from "./AmbientSoundWhite"
@@ -42,7 +43,7 @@ export default function Contact() {
     <section
       id="contact"
       ref={sectionRef}
-      className="relative w-full min-h-screen bg-cover bg-center bg-no-repeat flex flex-col justify-end pb-16 md:pb-24 px-4 md:px-8"
+      className="scroll-mt-[120px] relative w-full min-h-screen bg-cover bg-center bg-no-repeat flex flex-col justify-end pb-16 md:pb-24 px-4 md:px-8"
       style={{
         backgroundImage: "url('/contact-fond.jpg')",
       }}

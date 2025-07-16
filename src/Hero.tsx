@@ -58,7 +58,7 @@ export default function Hero({ onNavigate }: HeroProps) {
   return (
     <section
       id="hero"
-      className="relative w-full min-h-screen flex items-center justify-center text-center bg-cover bg-center overflow-hidden px-4 md:px-10"
+      className="scroll-mt-[120px] relative w-full min-h-screen flex items-center justify-center text-center bg-cover bg-center overflow-hidden px-4 md:px-10"
       style={{ backgroundImage: "url('/zen-hero.jpg')" }}
     >
       <FlyingLeaves />
